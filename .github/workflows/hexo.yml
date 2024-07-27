@@ -17,13 +17,13 @@ jobs:
     - name: Checkout signalens.com
       uses: actions/checkout@v2.1.0
     
-    # Workaround
-    #- name: Checkout themes
-    #  uses: actions/checkout@v2
-    #  with:
-    #    repository: signalens/theme.signalens.com
-    #    path: themes/fluid
-    #    submodule: recursive
+    #Workaround
+    - name: Checkout themes
+      uses: actions/checkout@v2
+      with:
+        repository: signalens/theme.signalens.com
+        path: themes/fluid
+        submodule: recursive
    
     - name: Install Dependencies
       run: npm install
