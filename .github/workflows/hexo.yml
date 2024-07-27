@@ -41,11 +41,7 @@ jobs:
         SIGNALENS_COM_DKEY : ${{ secrets.SIGNALENS_COM_DKEY }}
 
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@3.7.1
-      with:
-        GITHUB_TOKEN: ${{ secrets.SIGNALENS_COM_DKEY }}
-        BRANCH: gh-pages
-        FOLDER: public
+      run: hexo d
         
     - name: Get the output
       run: |
