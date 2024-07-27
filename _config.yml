@@ -104,4 +104,3 @@ deploy:
   type: 'git'
   repo: git@github.com:signalens/signalens.com.git
   branch: gh-pages
-
