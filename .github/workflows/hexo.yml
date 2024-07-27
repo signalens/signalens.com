@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout signalens.com
+      uses: actions/checkout@master
+    
+    # Workaround
+    - name: Checkout themes
+      uses: actions/checkout@master
+      with:
+        repository: signalens/theme.signalens.com
+        path: themes/fluid
+        submodule: recursive
+   
+    - name: Install Dependencies
+      run: |
+        npm install -g hexo-cli
+        npm install
+        hexo clean
+        hexo generate
+    
+    - name: Setup git
+      run: git config --global user.email kj@signalens.com && git config --global user.name xwings
+
+    - name: Setup ssh
+      run: mkdir -p ~/.ssh/ && echo "$SIGNALENS_COM_DKEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      env:
+        SIGNALENS_COM_DKEY : ${{ secrets.SIGNALENS_COM_DKEY }}
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.SIGNALENS_COM_DKEY }}
+        BRANCH: gh-pages
+        FOLDER: public
+        
+    - name: Get the output
+      run: |
+        echo "${{ steps.deploy.outputs.notify }}"
