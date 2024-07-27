@@ -15,22 +15,18 @@ jobs:
     
     steps:
     - name: Checkout signalens.com
-      uses: actions/checkout@master
+      uses: actions/checkout@v2.1.0
     
     # Workaround
     - name: Checkout themes
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       with:
         repository: signalens/theme.signalens.com
         path: themes/fluid
         submodule: recursive
    
     - name: Install Dependencies
-      run: |
-        npm install -g hexo-cli
-        npm install
-        hexo clean
-        hexo generate
+      run: npm install
     
     - name: Setup git
       run: git config --global user.email kj@signalens.com && git config --global user.name xwings
@@ -41,7 +37,7 @@ jobs:
         SIGNALENS_COM_DKEY : ${{ secrets.SIGNALENS_COM_DKEY }}
 
     - name: Deploy
-      run: hexo d
+      run: npx hexo g -d
         
     - name: Get the output
       run: |
