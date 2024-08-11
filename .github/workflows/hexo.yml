@@ -1,0 +1,44 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout signalens.com
+      uses: actions/checkout@v2.1.0
+    
+    #Workaround
+    - name: Checkout themes
+      uses: actions/checkout@v2
+      with:
+        repository: signalens/theme.signalens.com
+        path: themes/fluid
+        submodule: recursive
+   
+    - name: Install Dependencies
+      run: npm install
+    
+    - name: Setup git
+      run: git config --global user.email kj@signalens.com && git config --global user.name xwings
+
+    - name: Setup ssh
+      run: mkdir -p ~/.ssh/ && echo "$SIGNALENS_COM_DKEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      env:
+        SIGNALENS_COM_DKEY : ${{ secrets.SIGNALENS_COM_DKEY }}
+
+    - name: Deploy
+      run: npx hexo g -d
+        
+    - name: Get the output
+      run: |
+        echo "${{ steps.deploy.outputs.notify }}"
