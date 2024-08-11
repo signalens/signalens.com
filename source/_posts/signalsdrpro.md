@@ -33,9 +33,6 @@ Receive Channels: 2
 Duplexing Mode: Full
 Max Bandwidth: 85 kHz
 Transceiver Chipset: AD9361
-Schematic & Firmware: Available (Open Source)
-Clock Stability: ±1 ppm
-Transmit Power: Up to 10 dBm (depending on frequency)
 
 ### More information
 
