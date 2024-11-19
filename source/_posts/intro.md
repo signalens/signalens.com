@@ -3,7 +3,7 @@ title: Introduction
 sticky: 999
 ---
 
-# Welcome to Signalens  
+# Welcome to Signalens 
 
 Your trusted partner in compact, powerful, and innovative **Software-Defined Radio (SDR)** solutions, crafted to fit comfortably in the palm of your hand.  
 
