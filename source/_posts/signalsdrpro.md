@@ -37,12 +37,8 @@ Transceiver Chipset: AD9361
 ### More information
 
 ![SignalSDRPro Actual Size](https://github.com/signalens/theme.signalens.com/blob/master/images/rsignalSDRPro_actual.jpg?raw=true)
-![SignalSDR-Pro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
-
-![SignalSDRPro with Casing]([https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg](https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg
-))
-![SignalSDRPro Diagram](https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg
-)
+![SignalSDRPro Casing](https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg)
+![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
 ### Where to buy
 
