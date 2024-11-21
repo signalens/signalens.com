@@ -14,11 +14,10 @@ Key Features:
 - Ultra High Accuracy: Equipped with a ±1ppm high-precision clock and built-in GPSDO, providing higher clock accuracy and supporting external clock synchronization at multiple frequencies.
 - Broad Compatibility: Designed to be compatible with a wide range of SDR hardware, including Ettus USRP B210, PlutoSDR, HackRF, and other popular models, all operable within an SD card.
 
-### Video Demo
+### More information
 
-Checkout our video demo on 5G (srsan) and OpenWiFi
-
-[![Checkout our video demo on 5G (srsan) and OpenWiFi](https://img.youtube.com/vi/nOeTBGytATY/0.jpg)](https://youtu.be/nOeTBGytATY)
+![SignalSDRPro Actual Size](https://github.com/signalens/theme.signalens.com/blob/master/images/rsignalSDRPro_actual.jpg?raw=true)
+![SignalSDRPro Casing](https://github.com/signalens/signalsdrpro_docs/blob/main/img/signalsdrpro_naked.jpg?raw=true)
 
 ### Specification
 
@@ -34,12 +33,14 @@ Duplexing Mode: Full
 Max Bandwidth: 85 kHz
 Transceiver Chipset: AD9361
 
-### More information
-
-![SignalSDRPro Actual Size](https://github.com/signalens/theme.signalens.com/blob/master/images/rsignalSDRPro_actual.jpg?raw=true)
-![SignalSDRPro Casing](https://github.com/signalens/signalsdrpro_docs/blob/17ea99625f2264fbc4b9003eff2a50a7158eb52c/img/signalsdrpro_naked.jpg)
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
 ### Where to buy
 
 We will be start selling on [Indiegogo](https://www.indiegogo.com/) by the end of Nov 2024.
+
+### Video Demo
+
+Checkout our video demo on 5G (srsan) and OpenWiFi
+
+[![Checkout our video demo on 5G (srsan) and OpenWiFi](https://img.youtube.com/vi/nOeTBGytATY/0.jpg)](https://youtu.be/nOeTBGytATY)
