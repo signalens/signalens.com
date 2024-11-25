@@ -5,7 +5,7 @@ hide: true
 sticky: 100
 ---
 
-## ABout Signalens.com
+## About Signalens.com
 
 Welcome to **Signalens.com**, the home of innovation in Software-Defined Radio (SDR) technology. Our flagship product, **SignalSDR Pro**, is an open-source, fully customizable SDR solution designed to empower developers, researchers, and enthusiasts with complete control, from bootloader to firmware.
 
