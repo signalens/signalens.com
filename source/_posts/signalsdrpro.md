@@ -33,11 +33,11 @@ Duplexing Mode: Full
 Max Bandwidth: 85 kHz
 Transceiver Chipset: AD9361
 
-![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
+[SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
 ### Showcase
 
-Checkout tutorial/demo and usecases at ![Github repo](https://github.com/signalens/signalsdrpro)
+Checkout tutorial/demo and usecases at [Github repo](https://github.com/signalens/signalsdrpro)
 
 ### Where to buy
 
