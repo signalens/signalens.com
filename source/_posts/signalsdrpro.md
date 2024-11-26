@@ -21,6 +21,7 @@ Key Features:
 
 ### Specification
 
+Transceiver Chipset: AD9361
 Frequency Range: 70 MHz - 6 GHz
 Interfaces: Gigabit Ethernet, USB 3.0
 External Clock Reference: Yes
@@ -31,7 +32,6 @@ Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
 Max Bandwidth: 85 kHz
-Transceiver Chipset: AD9361
 
 [SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
