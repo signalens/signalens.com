@@ -17,7 +17,7 @@ Key Features:
 ### More information
 
 ![SignalSDRPro Actual Size](https://github.com/signalens/theme.signalens.com/blob/master/images/rsignalSDRPro_actual.jpg?raw=true)
-![SignalSDRPro Casing](https://github.com/signalens/signalsdrpro_docs/blob/main/img/signalsdrpro_naked.jpg?raw=true)
+![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
 
 ### Specification
 
@@ -35,12 +35,10 @@ Transceiver Chipset: AD9361
 
 ![SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
+### Showcase
+
+Checkout tutorial/demo and usecases at ![Github repo](https://github.com/signalens/signalsdrpro)
+
 ### Where to buy
 
 We will be start selling on [Indiegogo](https://www.indiegogo.com/) by the end of Nov 2024.
-
-### Video Demo
-
-Checkout our video demo on 5G (srsan) and OpenWiFi
-
-[![Checkout our video demo on 5G (srsan) and OpenWiFi](https://img.youtube.com/vi/nOeTBGytATY/0.jpg)](https://youtu.be/nOeTBGytATY)
