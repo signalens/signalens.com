@@ -21,8 +21,3 @@ At Signalens, we believe in making great technology accessible, collaborative, a
 ![KaiJern Lau](https://github.com/signalens/theme.signalens.com/blob/master/images/xwings.jpg?raw=true)
 
 KaiJern (xwings). Founder of open source reverse engineering project, [Qiling Framework](https://qiling.io). His research topic is mainly on developing cutting edge cross platform reverse engineering framework, embedded devices security, blockchain security, and various security topics. He presented his findings in different international security conferences like Blackhat, Defcon, HITB, Codegate, QCon, KCon, Brucon, H2HC, Nullcon, etc. He conducted hardware hacking courses in various conferences around the globe. He is also actively involved in [Unicorn Engine](https://unicorn-engine.org), [Capstone Engine](https://capstone-engine.org) and [Keystone Engine](https://keystone-engine.org).
-
-### WeiLi - Cheif Hardware Officer, Co-Founder
-![Wei Li](https://github.com/signalens/theme.signalens.com/blob/master/images/liwei.jpg?raw=true)
-
-WeiLi is a seasoned hardware design engineer and logic design specialist with experience contributing to the design of Loongson processors. Currently, he focuses on hardware design and low-level driver development for SDR, RFSoC, and FPGA systems. With expertise spanning from operating systems at a macro level to precision control at the micro level, such as clock edge timing, Li Wei excels in optimizing digital systems by leveraging the architectural synergy between processors and logic units. 
