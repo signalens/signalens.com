@@ -41,4 +41,4 @@ Checkout tutorial/demo and usecases at [Github repo](https://github.com/signalen
 
 ### Where to buy
 
-We will be start selling on [Indiegogo](https://www.indiegogo.com/) by the end of Nov 2024.
+We will be start selling on [here](https://signalens.com/buy/) 
