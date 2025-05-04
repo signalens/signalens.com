@@ -1,0 +1,374 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://github.com/signalens/theme.signalens.com/blob/master/images/iconsmall.png?raw=true">
+  <link rel="icon" type="image/png" href="https://github.com/signalens/theme.signalens.com/blob/master/images/iconsmall.png?raw=true">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="xwings">
+  <meta name="keywords" content="">
+  <title>SignalSDR Pro - Signalens Ltd.</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"signalens.com","root":"/","version":"1.8.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":false,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  <header style="height: 40vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>signalens</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener" href="https://github.com/signalens/signalsdrpro/">
+                
+                SignalSDR Pro
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener" href="https://www.crowdsupply.com/signalens/signalsdr-pro">
+                
+                Buy
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/compare/">
+                
+                Comparison
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener" href="https://x.com/signalensradio">
+                
+                X(Twitter)
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener" href="https://discord.gg/W2KZK8s7XG">
+                
+                Discord
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" rel="noopener" href="https://github.com/signalens">
+                <i class="iconfont icon-github-fill"></i>
+                Opensource
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus/">
+                
+                About
+              </a>
+            </li>
+          
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('https://github.com/signalens/theme.signalens.com/blob/master/images/bg.png?raw=true') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.8)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="SignalSDR Pro">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2025-05-04 03:00" pubdate>
+        May 4, 2025 am
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">SignalSDR Pro</h1>
+            
+            <div class="markdown-body">
+              <h3 id="Why-SignalSDR-Pro"><a href="#Why-SignalSDR-Pro" class="headerlink" title="Why SignalSDR Pro"></a>Why SignalSDR Pro</h3><p>SignalSDR Pro is a supports a wide range of open-source SDR projects, such as Openwifi, gps-sdr-sim, gnss-sdr, srsRAN 4G&#x2F;5G, OsmoBTS, openbts, yatebts, OpenAirInterface, and more. Additionally, it is compatible with UHD, Libiio, MATLAB, GNU Radio, LabVIEW, and other software platforms.</p>
+<p>Key Features:</p>
+<ul>
+<li>Complete Interfaces: Includes Gigabit Ethernet port, USB 3.0 port, USB-OTG, USB-TTL, JTAG debugging port, TF Card, Clock Sync, and GPIO.</li>
+<li>Ultra High Accuracy: Equipped with a ±1ppm high-precision clock and built-in GPSDO, providing higher clock accuracy and supporting external clock synchronization at multiple frequencies.</li>
+<li>Broad Compatibility: Designed to be compatible with a wide range of SDR hardware, including Ettus USRP B210, PlutoSDR, HackRF, and other popular models, all operable within an SD card.</li>
+</ul>
+<h3 id="More-information"><a href="#More-information" class="headerlink" title="More information"></a>More information</h3><p><img src="https://raw.githubusercontent.com/signalens/signalsdrpro/refs/heads/main/img/readme/cc_trans.png" srcset="/img/loading.gif" alt="SignalSDRPro Size"><br><img src="https://raw.githubusercontent.com/signalens/signalsdrpro/refs/heads/main/img/readme/signalsdr-pro-pcba-and-enclosure-01_jpg_md-xl.jpg" srcset="/img/loading.gif" alt="SignalSDRPro Ripped"></p>
+<h3 id="Specification"><a href="#Specification" class="headerlink" title="Specification"></a>Specification</h3><p>Transceiver Chipset: AD9361<br>Frequency Range: 70 MHz - 6 GHz<br>Interfaces: Gigabit Ethernet, USB 3.0<br>External Clock Reference: Yes<br>Sampling Rate: 61.44 MHz<br>Resolution: 12 bits<br>Sample Rate: 61.44 MSPS<br>Transmit Channels: 2<br>Receive Channels: 2<br>Duplexing Mode: Full<br>Max Bandwidth: 85 kHz</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true">SignalSDRPro Diagram</a></p>
+<h3 id="Showcase"><a href="#Showcase" class="headerlink" title="Showcase"></a>Showcase</h3><p>Checkout tutorial&#x2F;demo and usecases at <a target="_blank" rel="noopener" href="https://github.com/signalens/signalsdrpro">Github repo</a></p>
+<h3 id="Where-to-buy"><a href="#Where-to-buy" class="headerlink" title="Where to buy"></a>Where to buy</h3><p>We will be start selling on <a href="https://signalens.com/buy/">here</a> </p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://signalens.com" target="_blank" rel="nofollow noopener"><span>Signalens Ltd.</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>
