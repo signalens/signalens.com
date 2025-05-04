@@ -16,7 +16,7 @@ Key Features:
 
 ### More information
 
-![SignalSDRPro Actual Size](https://github.com/signalens/theme.signalens.com/blob/master/images/rsignalSDRPro_actual.jpg?raw=true)
+![SignalSDRPro Actual Size](https://raw.githubusercontent.com/signalens/signalsdrpro/refs/heads/main/img/readme/signalsdr-pro-pcba-and-enclosure-01_jpg_md-xl.jpg)
 ![SignalSDR Pro](https://github.com/signalens/signalsdrpro_docs/blob/main/img/readme/signalsdrpro_naked.jpg?raw=true)
 
 ### Specification
