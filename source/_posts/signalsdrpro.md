@@ -32,7 +32,7 @@ Sample Rate: 61.44 MSPS
 Transmit Channels: 2
 Receive Channels: 2
 Duplexing Mode: Full
-Max Bandwidth: 65 kHz
+Max Bandwidth: 65 MHz
 
 [SignalSDRPro Diagram](https://github.com/signalens/theme.signalens.com/blob/master/images/signalsdrpro_logic.png?raw=true)
 
